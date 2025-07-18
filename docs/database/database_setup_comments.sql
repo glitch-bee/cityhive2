@@ -1,4 +1,4 @@
--- SQL script to create the comments table for CityHive2
+-- SQL script to create the comments table for NYC Feral Bee Survey
 -- Run this in your Supabase SQL Editor
 
 CREATE TABLE IF NOT EXISTS comments (

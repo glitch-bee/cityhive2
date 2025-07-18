@@ -1,6 +1,6 @@
 # Professional GIS Refactor - Summary
 
-This document outlines the changes made to transform CityHive2 from a consumer-friendly application into a professional, science-focused GIS platform for bee survey data collection.
+This document outlines the changes made to transform NYC Feral Bee Survey from a consumer-friendly application into a professional, science-focused GIS platform for bee survey data collection.
 
 ## ✅ Completed Changes
 
@@ -26,7 +26,7 @@ This document outlines the changes made to transform CityHive2 from a consumer-f
 - Reduced animation durations for professional feel
 
 ### 3. Branding & Naming
-- **App Name**: "CityHive2" → "NYC Bee Survey Platform"
+- **App Name**: "NYC Feral Bee Survey"
 - **Navigation**: "Map" → "Survey Map", "About" → "Data Analysis"
 - **Buttons**: "Add Sighting" → "+ Add Survey Point"
 - **Theme Color**: Orange → Professional Sage Green (#7c9082)

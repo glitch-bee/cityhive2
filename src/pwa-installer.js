@@ -1,5 +1,5 @@
 /*
- * CityHive PWA Installation Handler
+ * NYC Feral Bee Survey PWA Installation Handler
  * Manages Progressive Web App installation functionality
  * 
  * Features to implement:
@@ -80,7 +80,7 @@ class PWAInstaller {
   // TODO: Create install button UI element
   // createInstallButton() {
   //   this.installButton = document.createElement('button');
-  //   this.installButton.textContent = '📱 Install CityHive';
+  //   this.installButton.textContent = '📱 Install NYC Feral Bee Survey';
   //   this.installButton.className = 'pwa-install-button';
   //   this.installButton.onclick = () => this.promptInstall();
   //   

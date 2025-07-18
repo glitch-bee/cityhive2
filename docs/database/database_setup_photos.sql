@@ -1,4 +1,4 @@
--- SQL script to add photo support to CityHive2
+-- SQL script to add photo support to NYC Feral Bee Survey
 -- Run this in your Supabase SQL Editor
 
 -- Add photo_url column to existing markers table

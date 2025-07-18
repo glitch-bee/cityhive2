@@ -1,6 +1,6 @@
-# CityHive PWA Implementation Guide
+# NYC Feral Bee Survey PWA Implementation Guide
 
-This document outlines the Progressive Web App (PWA) scaffolding added to CityHive and the steps needed to make it fully functional.
+This document outlines the Progressive Web App (PWA) scaffolding added to NYC Feral Bee Survey and the steps needed to make it fully functional.
 
 ## Current PWA Scaffolding (Added July 3, 2025)
 

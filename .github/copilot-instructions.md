@@ -1,8 +1,8 @@
-# GitHub Copilot Instructions for CityHive2
+# GitHub Copilot Instructions for NYC Feral Bee Survey
 
 ## Architecture Overview
 
-CityHive2 is a collaborative bee sighting mapping platform using **Vanilla JS + Vite** with a **mobile-first, hamburger navigation** approach. The app follows a **module-based architecture** with global state management and custom event-driven communication.
+NYC Feral Bee Survey is a collaborative bee sighting mapping platform using **Vanilla JS + Vite** with a **mobile-first, hamburger navigation** approach. The app follows a **module-based architecture** with global state management and custom event-driven communication.
 
 ### Key Components
 - **`src/main.js`** - Entry point, global `appState` object, initialization orchestration

@@ -1,4 +1,4 @@
-// Welcome guide component for City Hive
+// Welcome guide component for NYC Feral Bee Survey
 export function createWelcomeGuide() {
     const isMobile = window.innerWidth <= 768;
     
@@ -6,13 +6,13 @@ export function createWelcomeGuide() {
     const welcomeContent = isMobile ? `
         <div class="welcome-content mobile">
             <button class="close-welcome" aria-label="Close welcome guide">×</button>
-            <h1>Welcome to City Hive 🐝</h1>
+            <h1>Welcome to NYC Feral Bee Survey 🐝</h1>
             
             <section class="quick-start">
                 <h2>Quick Start</h2>
                 <h3>Found a Bee Colony? 📱</h3>
                 <ol>
-                    <li>Open City Hive on your phone</li>
+                    <li>Open NYC Feral Bee Survey on your phone</li>
                     <li>Enable location services</li>
                     <li>Tap the map where you saw the bees</li>
                     <li>Choose the type:
@@ -29,7 +29,7 @@ export function createWelcomeGuide() {
             </section>
 
             <section class="what-is">
-                <h2>What is City Hive?</h2>
+                <h2>What is NYC Feral Bee Survey?</h2>
                 <p>A community map for tracking wild honey bees in NYC. We help document feral colonies that live in tree cavities, walls, and other urban spaces.</p>
             </section>
 
@@ -81,12 +81,12 @@ export function createWelcomeGuide() {
     ` : `
         <div class="welcome-content desktop">
             <button class="close-welcome" aria-label="Close welcome guide">×</button>
-            <h1>Welcome to City Hive 🐝</h1>
+            <h1>Welcome to NYC Feral Bee Survey 🐝</h1>
             
             <section class="what-is">
-                <h2>What is City Hive?</h2>
-                <p>City Hive is a community-powered mapping tool that helps track feral honey bee colonies—wild hives that live in tree cavities, walls, and other hidden spots across our urban landscape. These aren't the managed hives you might see in a beekeeper's apiary. Feral colonies form on their own, often after a swarm splits off from an existing hive. They represent a critical but largely undocumented part of the urban ecosystem.</p>
-                <p>City Hive is designed to make this hidden world visible.</p>
+                <h2>What is NYC Feral Bee Survey?</h2>
+                <p>NYC Feral Bee Survey is a community-powered mapping tool that helps track feral honey bee colonies—wild hives that live in tree cavities, walls, and other hidden spots across our urban landscape. These aren't the managed hives you might see in a beekeeper's apiary. Feral colonies form on their own, often after a swarm splits off from an existing hive. They represent a critical but largely undocumented part of the urban ecosystem.</p>
+                <p>NYC Feral Bee Survey is designed to make this hidden world visible.</p>
             </section>
 
             <section class="why-matters">
@@ -100,13 +100,13 @@ export function createWelcomeGuide() {
 
             <section class="getting-started">
                 <h2>Getting Started</h2>
-                <h3>How to Use City Hive</h3>
+                <h3>How to Use NYC Feral Bee Survey</h3>
                 <p>Using just a smartphone, anyone can add a sighting to our live map—tagging locations of wild hives, active swarms, or structures where bees are living. Each marker supports photos, detailed notes, and collaborative comments, making it easy to share what you see and learn from others. All updates appear in real time, so the tool is equally useful for fieldwork, research, or even casual urban exploration.</p>
             </section>
 
             <section class="features">
                 <h2>Current Features</h2>
-                <p>City Hive is already live and in use. You can:</p>
+                <p>NYC Feral Bee Survey is already live and in use. You can:</p>
                 <ul>
                     <li>View and add sightings</li>
                     <li>Upload photos</li>
@@ -130,7 +130,7 @@ export function createWelcomeGuide() {
 
             <section class="community">
                 <h2>Join Our Community</h2>
-                <p>City Hive is a tool for beekeepers—but also for researchers, naturalists, city planners, and anyone who cares about the health of urban ecosystems. By helping map and monitor wild bees in New York and beyond, we're building a clearer picture of pollinator life in the city—and a stronger foundation for protecting it.</p>
+                <p>NYC Feral Bee Survey is a tool for beekeepers—but also for researchers, naturalists, city planners, and anyone who cares about the health of urban ecosystems. By helping map and monitor wild bees in New York and beyond, we're building a clearer picture of pollinator life in the city—and a stronger foundation for protecting it.</p>
             </section>
 
             <footer>

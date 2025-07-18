@@ -1,4 +1,4 @@
--- SQL script to add status system to CityHive2
+-- SQL script to add status system to NYC Feral Bee Survey
 -- Run this in your Supabase SQL Editor
 
 -- Add status column to existing markers table

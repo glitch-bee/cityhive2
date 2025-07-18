@@ -11,4 +11,4 @@ If you introduce a GitHub Action, bot, or other automated process, document it h
 - When it runs (e.g., on pull request, on push, scheduled)
 - Instructions for updating or disabling it
 
-Keeping this file up to date helps everyone understand how automation is used in CityHive2.
+Keeping this file up to date helps everyone understand how automation is used in NYC Feral Bee Survey.

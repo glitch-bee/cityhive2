@@ -1,4 +1,4 @@
-# City Hive - NYC Bee Sighting Map
+# NYC Feral Bee Survey
 
 **Version:** 1.0.0  
 **Status:** Production Ready  
@@ -80,7 +80,7 @@ VITE_MAPTILER_KEY=your_maptiler_api_key
 
 ## Mobile Experience
 
-City Hive is **optimized for mobile field use** with:
+NYC Feral Bee Survey is **optimized for mobile field use** with:
 - **Touch-friendly interface** with modal-based marker details
 - **GPS integration** for easy location capture
 - **Photo uploads** directly from mobile cameras

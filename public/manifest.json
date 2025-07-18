@@ -1,6 +1,6 @@
 {
-  "name": "NYC Bee Survey Platform - Scientific Data Collection",
-  "short_name": "NYC Bee Survey",
+  "name": "NYC Feral Bee Survey - Scientific Data Collection",
+  "short_name": "NYC Feral Bee Survey",
   "description": "Professional platform for scientific bee survey data collection and analysis in New York City",
   "start_url": "/",
   "display": "standalone",
@@ -59,7 +59,7 @@
     {
       "name": "About",
       "short_name": "About", 
-      "description": "Learn about CityHive",
+      "description": "Learn about NYC Feral Bee Survey",
       "url": "/about.html",
       "icons": [
         {

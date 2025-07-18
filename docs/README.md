@@ -1,6 +1,6 @@
-# City Hive Documentation
+# NYC Feral Bee Survey Documentation
 
-This folder contains documentation for the City Hive project.
+This folder contains documentation for the NYC Feral Bee Survey project.
 
 ## Structure
 

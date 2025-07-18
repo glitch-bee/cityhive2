@@ -1,5 +1,5 @@
 /* 
- * CityHive Service Worker - PWA Offline Functionality
+ * NYC Feral Bee Survey Service Worker - PWA Offline Functionality
  * This service worker will handle:
  * - Caching strategies for offline functionality
  * - Background sync for when users are offline
@@ -22,7 +22,7 @@ const STATIC_CACHE_URLS = [
 
 // Service Worker Installation Event
 self.addEventListener('install', (event) => {
-  console.log('[Service Worker] Installing CityHive SW...');
+  console.log('[Service Worker] Installing NYC Feral Bee Survey SW...');
   
   // TODO: Implement cache preloading
   // event.waitUntil(
@@ -36,7 +36,7 @@ self.addEventListener('install', (event) => {
 
 // Service Worker Activation Event
 self.addEventListener('activate', (event) => {
-  console.log('[Service Worker] Activating CityHive SW...');
+  console.log('[Service Worker] Activating NYC Feral Bee Survey SW...');
   
   // TODO: Implement cache cleanup for old versions
   // event.waitUntil(
@@ -91,7 +91,7 @@ self.addEventListener('push', (event) => {
   // };
   // 
   // event.waitUntil(
-  //   self.registration.showNotification('CityHive', options)
+  //   self.registration.showNotification('NYC Feral Bee Survey', options)
   // );
 });
 
@@ -100,4 +100,4 @@ self.addEventListener('push', (event) => {
 //   // Implement logic to sync offline bee sighting submissions
 // }
 
-console.log('[Service Worker] CityHive SW script loaded - ready for implementation');
+console.log('[Service Worker] NYC Feral Bee Survey SW script loaded - ready for implementation');

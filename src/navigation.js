@@ -1,7 +1,6 @@
 import { showAuthModal, hideAuthModal } from './auth.js';
 import { supabase, signOut, onAuthStateChange } from './supabase.js';
 import { showCrosshair, hideCrosshair } from './crosshair.js';
-import logoUrl from '/cityhive.png';
 
 export function initNavigation(appState) {
   const pages = [
@@ -26,29 +25,15 @@ export function initNavigation(appState) {
   const navContainer = document.createElement('div');
   navContainer.className = 'nav-container';
 
-  // Brand section (Logo + Text)
+  // Brand section (Text Only)
   const brandLink = document.createElement('a');
   brandLink.href = 'index.html';
   brandLink.className = 'nav-brand';
 
-  const logoLink = document.createElement('a');
-  logoLink.href = '/cityhive2/';
-  logoLink.style.display = 'flex';
-  logoLink.style.flexDirection = 'column';
-  logoLink.style.justifyContent = 'flex-start';
-  logoLink.style.alignItems = 'flex-start';
-
-  const logoImg = document.createElement('img');
-  logoImg.src = logoUrl;
-  logoImg.alt = 'City Hive Logo';
-  logoImg.classList.add('nav-logo');
-
-  logoLink.appendChild(logoImg);
-  brandLink.appendChild(logoLink);
 
   const brandText = document.createElement('span');
   brandText.className = 'brand-text';
-  brandText.textContent = 'NYC Bee Survey';
+  brandText.textContent = 'NYC Feral Bee Survey';
   brandLink.appendChild(brandText);
 
   navContainer.appendChild(brandLink);
@@ -59,7 +44,7 @@ export function initNavigation(appState) {
 
   // Simple header - professional branding
   const sidebarHeader = document.createElement('div');
-  sidebarHeader.innerHTML = 'NYC Bee Survey Platform';
+  sidebarHeader.innerHTML = 'NYC Feral Bee Survey';
   navLinksDiv.appendChild(sidebarHeader);
 
   // Navigation Links first

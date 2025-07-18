@@ -1,4 +1,4 @@
--- SQL script to fix UUID column types in CityHive2
+-- SQL script to fix UUID column types in NYC Feral Bee Survey
 -- Run this in your Supabase SQL Editor to ensure all ID columns are proper UUIDs
 
 -- First, let's see the current column types
